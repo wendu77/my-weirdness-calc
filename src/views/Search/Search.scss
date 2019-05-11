@@ -1,0 +1,16 @@
+.search-view {
+    &__search {
+        height: 110px;
+        margin-top: 50px;
+    }
+
+    &__action {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    &__text {
+        margin: 30px 0;
+        font-weight: bold;
+    }
+}

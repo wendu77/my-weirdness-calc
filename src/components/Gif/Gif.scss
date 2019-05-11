@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.gif {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__heading {
+        color: $gray;
+        text-transform: capitalize;
+    }
+
+    &__image-wrapper {
+        position: relative;
+    }
+
+    &__image {
+        width: 100%;
+        max-width: 350px;
+        border-radius: 3px;
+    }
+
+    &__action {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    &__weirdness {
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,13 @@
+.calculator-layout {
+    display: flex;
+
+    &__main {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    &__panel {
+        width: 40%;
+    }
+}

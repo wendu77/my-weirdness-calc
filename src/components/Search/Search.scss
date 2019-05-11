@@ -1,0 +1,9 @@
+.search {
+    position: relative;
+
+    &__action {
+        display: inline-block;
+        position: absolute;
+        bottom: 0;
+    }
+}

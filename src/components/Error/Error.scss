@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.error {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 30px;
+    color: $white;
+    background-color: $red;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: $error-z-index;
+}

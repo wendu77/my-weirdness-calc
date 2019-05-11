@@ -1,0 +1,11 @@
+.liked {
+    &__gifs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__gif {
+        width: 45%;
+    }
+}
